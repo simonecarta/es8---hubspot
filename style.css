@@ -41,6 +41,35 @@ body {
     float: left;
 }
 
+.btn {
+    text-decoration: none;
+    border: 1px solid rgb(211, 120, 0);
+    padding: 10px;
+    border-radius: 5px;
+    color:rgb(211, 120, 0);
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.btn-jumbotron {
+    text-decoration: none;
+    border: 1px solid rgb(211, 120, 0);
+    padding: 10px;
+    border-radius: 5px;
+    color:rgb(211, 120, 0);
+    margin-right: 0;
+    
+}
+
+.btn-orange {
+    background-color: rgb(211, 120, 0);
+    color: white;
+}
+
+.btn-large {
+    padding: 20px;
+}
+
 /* DEBUG ELEMENT (REMOVE WHEN FINISHED) */
 
 
@@ -69,24 +98,83 @@ body {
 
 .header-top-nav {
     background: #eee;
+    border-bottom: 2px solid rgb(99, 99, 99);
 
 }
 
+.header-top-nav .languagecontact {
+    line-height: 80px;
+}
+
+.header-top-nav .login-gethubspot {
+    line-height: 80px;
+    text-align: right;
+    
+}
+
+.header-top-nav a {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.header-bottom-nav {
+    line-height: 50px;
+    margin-top: 10px;
+}
+
+
+.header-bottom-nav ul {
+    list-style-type: none;
+}
+
+.header-bottom-nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.firstmenu {
+    text-align: right;
+}
+
+
 .jumbotron {
     height: 600px;
-    background: #888;
+    background: rgb(255, 232, 209);
     padding-top: 80px;
+    background-image: url(images/socialmedia.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 40%;
 }
 
 .jumbotron .content {
     width: 40%;
     height: 350px;
-    background: rgb(97, 52, 52);
+    
+}
+
+.content h1 {
+    font-size: 46px;
+    font-weight: 1000;
+    color: rgb(64, 64, 64);
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: rgb(64, 64, 64);
+    line-height: 120%;
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+.content #lastquote {
+    margin-top: 50px;
+    font-size: 14px;
 }
 
 .bottom-header {
     height: 80px;
-    background: #ccc;
+    background: rgba(74, 158, 154, 0.3);
     border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
