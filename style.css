@@ -48,8 +48,19 @@ body {
 
 .centered {
     text-align: center;
-    padding: 40px;
+    padding: 40px ;
 }
+
+.centered-50 {
+    text-align: center;
+    padding: 50px;
+}
+
+.margin-top {
+    margin-top: 60px;
+    line-height: 130%;
+}
+
 
 .bgwhite {
     background: white;
@@ -86,6 +97,17 @@ body {
 
 .btn-margintop {
     margin-top: 30px;
+}
+
+.btn-grey {
+    text-decoration: none;
+    border: 1px solid rgb(97, 97, 97);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 0;
+    background-color: grey;
+    color: rgb(64, 64, 64);
+    
 }
 
 /* DEBUG ELEMENT (REMOVE WHEN FINISHED) */
@@ -279,9 +301,35 @@ body {
 /* LEARN */
 
 #learn {
-    background: rgb(90, 90, 90);
-    
+    background: rgb(47,167,201);
+    background: linear-gradient(90deg, rgba(47,167,201,1) 0%, rgba(53,176,164,1) 100%);
+    }
+
+.h2-learn-span {
+    color: white;
+    font-size: 34px;
+    margin-bottom: 25px;
 }
+
+.p-class-learn {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.learn-boxes h4 {
+    color: white;
+    font-size: 35px;
+}
+
+.learn-boxes p {
+    color: white;
+}
+
+.learn-square {
+    padding: 35px;
+}
+
 
 /* CLIENTS */
 
@@ -298,8 +346,122 @@ body {
     width: 60%;
 }
 
-/* FOOTER*/
+#clients h2 {
+    font-size: 42px;
+    font-weight: 1000;
+    color: rgb(64, 64, 64);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#clients p {
+    color: rgb(64, 64, 64);
+    text-align: left;
+    font-size: 16px;
+}
+
+/* START */
+
+#start h2 {
+    font-size: 28px;
+    font-weight: 1000;
+    color: rgb(64, 64, 64);
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+#start p {
+    color: rgb(64, 64, 64);
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+#start .littletextstart {
+    color: rgb(64, 64, 64);
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+/* FOOTER */
 
 .main-footer {
-    background: #333;
+    background-color: rgb(64, 64, 64);
 }
+
+
+.menu-column {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu-column h5 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.menu-column ul {
+    list-style: none;
+    line-height: 180%;
+    text-decoration: none;
+}
+
+.menu-column ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.langmenu-inline ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-lang-menu {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}   
+
+.footer-lang-menu ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+.footer-lang-menu li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.langmenu {
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.logofooter img {
+    margin-top: 10px;
+}
+
+.lastfootermenu {
+    text-align: right;
+    
+}
+
+.lastfootermenu li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.lastfootermenu ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+    
+}
+
+
