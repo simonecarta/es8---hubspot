@@ -46,6 +46,15 @@ body {
     float: left;
 }
 
+.centered {
+    text-align: center;
+    padding: 40px;
+}
+
+.bgwhite {
+    background: white;
+}
+
 .btn {
     text-decoration: none;
     border: 1px solid rgb(211, 120, 0);
@@ -131,18 +140,14 @@ body {
     margin-top: 10px;
 }
 
-
-.header-bottom-nav ul {
-    list-style-type: none;
-}
-
-.header-bottom-nav ul li {
+.header-bottom-nav li {
     display: inline-block;
     padding: 20px;
 }
 
-.firstmenu {
+.firstmenu li a {
     text-align: right;
+    text-decoration: none;
 }
 
 
@@ -184,8 +189,8 @@ body {
 .bottom-header {
     height: 80px;
     background: rgba(74, 158, 154, 0.3);
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 /* INFO */
@@ -201,6 +206,11 @@ body {
 .powerfultogether {
     text-align: center;
 }
+
+.checkedbox {
+    font-size: 11px;
+}
+
 
 .powerfultogether h1 {
         font-size: 38px;
@@ -247,8 +257,24 @@ body {
 
 .info-box-full .col-dx {
     width: 70%;
+    
 }
 
+
+.info-box-pop-element .info-box-full .col-sx {
+    width: 30%
+}
+
+.info-box-pop-element .col-dx {
+    width: 70%;
+    border: 1px solid black;
+    line-height: 150%;
+    
+}
+
+.textcrm-checkedbox {
+    margin-top: 20px;
+}
 
 /* LEARN */
 
